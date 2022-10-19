@@ -1,0 +1,15 @@
+$def: #7E7E7E;
+$def2: #1C2752;
+$def3: #D2D2D2;
+$def4: #F4F4F4;
+$def5: #222222;
+$white: #FFFFFF;
+$oranje: #FFB342;
+$light: #F2F2F2;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers	});
+}
